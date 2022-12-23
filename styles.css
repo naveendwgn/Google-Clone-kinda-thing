@@ -1,0 +1,101 @@
+body {
+    font-family: Calibri}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head #links {
+    margin-right: 30px;
+    display: flex;
+}
+
+.head #links a:hover{
+    border-bottom: 1px solid #3c4043;
+}
+
+.head #links a{
+    margin-left: 30px;
+    font-size: small;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+h1 {text-align: center;
+    align-items: center;
+    font-size: 80px;
+    margin-top: 250px;
+}
+    .gBlue { color: #4285F4; }
+    .oRed{ color:#DB4437; }
+    .oYellow{ color:#F4B400; }
+    .lGreen{ color:#0F9D58; }
+    .eRed{ color:#DB4437; display:inline-block;transform:rotate(-20deg); }
+    .FBlack{ color:black; }
+    .ZBlack{ color:black; }
+
+#search{
+    text-align: center;
+}
+.head{
+    text-align: right;
+}
+
+#googleSearch {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 23px;
+    border: 1.5px solid #eee;
+    border-radius:20px;
+    width: 550px;
+    align-items: center;
+  }
+
+.imageSearch {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position:absolute;
+    left: 815px;
+    bottom: 450px;
+    white-space: nowrap;
+}  
+  
+button[type=submit] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.advancedGoogle {
+    width: auto;
+    display: flex;
+    height: auto;
+    justify-content: space-between;    
+}
+
+.advancedHeader {
+    border-bottom: 0.5px solid gray;
+}
+
+.advancedHeader h3 {
+    color: crimson;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
